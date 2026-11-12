@@ -1,0 +1,242 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.studentattendance"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:4:5-65
+11-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:4:22-62
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:5:5-66
+12-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:5:22-63
+13
+14    <uses-feature
+14-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:6:5-85
+15        android:name="android.hardware.camera"
+15-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:6:19-57
+16        android:required="false" />
+16-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:6:58-82
+17    <uses-feature
+17-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+18        android:name="android.hardware.camera.front"
+18-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+19        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+19-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+20    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+21    <uses-feature
+21-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
+22        android:name="android.hardware.camera.autofocus"
+22-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:34:9-57
+23        android:required="false" />
+23-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:35:9-33
+24    <uses-feature
+24-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+25        android:name="android.hardware.camera.flash"
+25-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+26        android:required="false" />
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+28        android:name="android.hardware.screen.landscape"
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+31        android:name="android.hardware.wifi"
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+32        android:required="false" />
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+33
+34    <permission
+34-->[androidx.core:core:1.9.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+35        android:name="com.example.studentattendance.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.9.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.9.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.example.studentattendance.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.9.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.9.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+39
+40    <application
+40-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:8:5-42:19
+41        android:name="com.example.studentattendance.AttendanceApp"
+41-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:9:9-38
+42        android:allowBackup="true"
+42-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:10:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.9.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+44        android:debuggable="true"
+45        android:extractNativeLibs="false"
+46        android:icon="@drawable/ic_launcher"
+46-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:11:9-45
+47        android:label="@string/app_name"
+47-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:13:9-41
+48        android:roundIcon="@drawable/ic_launcher"
+48-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:12:9-50
+49        android:supportsRtl="true"
+49-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:14:9-35
+50        android:testOnly="true"
+51        android:theme="@style/Theme.StudentAttendance" >
+51-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:15:9-55
+52        <activity
+52-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:17:9-25:20
+53            android:name="com.example.studentattendance.SplashScreenActivity"
+53-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:18:13-49
+54            android:exported="true"
+54-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:19:13-36
+55            android:theme="@style/Theme.StudentAttendance.Splash" >
+55-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:20:13-66
+56            <intent-filter>
+56-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:21:13-24:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:22:17-69
+57-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:22:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:23:17-77
+59-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:23:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:27:9-75
+63            android:name="com.example.studentattendance.MainActivity"
+63-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:27:19-47
+64            android:exported="false" />
+64-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:27:48-72
+65        <activity
+65-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:28:9-119
+66            android:name="com.example.studentattendance.ScanBarcodeActivity"
+66-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:28:19-54
+67            android:exported="false"
+67-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:28:55-79
+68            android:screenOrientation="portrait" />
+68-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:28:80-116
+69        <activity
+69-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:29:9-82
+70            android:name="com.example.studentattendance.StudentListActivity"
+70-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:29:19-54
+71            android:exported="false" />
+71-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:29:55-79
+72        <activity
+72-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:30:9-78
+73            android:name="com.example.studentattendance.HistoryActivity"
+73-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:30:19-50
+74            android:exported="false" />
+74-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:30:51-75
+75        <activity
+75-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:31:9-32:58
+76            android:name="com.example.studentattendance.StudentEditActivity"
+76-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:31:19-54
+77            android:exported="false"
+77-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:31:55-79
+78            android:windowSoftInputMode="adjustResize" />
+78-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:32:13-55
+79
+80        <!-- Lets us share the exported CSV file through ACTION_SEND -->
+81        <provider
+82            android:name="androidx.core.content.FileProvider"
+82-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:36:13-62
+83            android:authorities="com.example.studentattendance.fileprovider"
+83-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:37:13-64
+84            android:exported="false"
+84-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:38:13-37
+85            android:grantUriPermissions="true" >
+85-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:39:13-47
+86            <meta-data
+86-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:40:13-112
+87                android:name="android.support.FILE_PROVIDER_PATHS"
+87-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:40:24-74
+88                android:resource="@xml/file_paths" />
+88-->/Users/ngocanh129/Downloads/StudentAttendance/app/src/main/AndroidManifest.xml:40:75-109
+89        </provider>
+90
+91        <activity
+91-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+92            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+92-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
+93            android:clearTaskOnLaunch="true"
+93-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+94            android:screenOrientation="sensorLandscape"
+94-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+95            android:stateNotNeeded="true"
+95-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+96            android:theme="@style/zxing_CaptureTheme"
+96-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+97            android:windowSoftInputMode="stateAlwaysHidden" />
+97-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/442678713beeb641644a4dcadae5708b/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+98
+99        <provider
+99-->[androidx.emoji2:emoji2:1.2.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/4d2453fdc4c3c668e840984901fbd925/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+100            android:name="androidx.startup.InitializationProvider"
+100-->[androidx.emoji2:emoji2:1.2.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/4d2453fdc4c3c668e840984901fbd925/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+101            android:authorities="com.example.studentattendance.androidx-startup"
+101-->[androidx.emoji2:emoji2:1.2.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/4d2453fdc4c3c668e840984901fbd925/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+102            android:exported="false" >
+102-->[androidx.emoji2:emoji2:1.2.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/4d2453fdc4c3c668e840984901fbd925/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+103            <meta-data
+103-->[androidx.emoji2:emoji2:1.2.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/4d2453fdc4c3c668e840984901fbd925/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+104-->[androidx.emoji2:emoji2:1.2.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/4d2453fdc4c3c668e840984901fbd925/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+105                android:value="androidx.startup" />
+105-->[androidx.emoji2:emoji2:1.2.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/4d2453fdc4c3c668e840984901fbd925/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/ngocanh129/.gradle/caches/8.13/transforms/9e71723e3e0bf95ef9c5f8429bc855a8/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/ngocanh129/.gradle/caches/8.13/transforms/9e71723e3e0bf95ef9c5f8429bc855a8/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+108                android:value="androidx.startup" />
+108-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/ngocanh129/.gradle/caches/8.13/transforms/9e71723e3e0bf95ef9c5f8429bc855a8/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+109            <meta-data
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+110                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+111                android:value="androidx.startup" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+112        </provider>
+113
+114        <receiver
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+115            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+116            android:directBootAware="false"
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+117            android:enabled="true"
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+118            android:exported="true"
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+119            android:permission="android.permission.DUMP" >
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+121                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+124                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+127                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+128            </intent-filter>
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+130                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ngocanh129/.gradle/caches/8.13/transforms/dac026611e494124e2f9ae76190a7245/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+131            </intent-filter>
+132        </receiver>
+133    </application>
+134
+135</manifest>

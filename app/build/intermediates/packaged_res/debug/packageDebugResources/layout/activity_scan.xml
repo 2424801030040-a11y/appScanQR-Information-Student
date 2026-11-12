@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@android:color/black">
+
+    <com.journeyapps.barcodescanner.BarcodeView
+        android:id="@+id/barcode_view" android:layout_width="match_parent" android:layout_height="match_parent"
+        app:zxing_framing_rect_width="280dp" app:zxing_framing_rect_height="280dp"/>
+
+    <com.example.studentattendance.ScannerOverlayView
+        android:layout_width="match_parent" android:layout_height="match_parent"/>
+
+    <!-- Laser line, moved up/down by R.anim.laser_scan -->
+    <FrameLayout android:layout_width="280dp" android:layout_height="280dp" android:layout_gravity="center">
+        <View android:id="@+id/laser_line" android:layout_width="match_parent" android:layout_height="4dp"
+            android:background="@drawable/bg_laser"/>
+    </FrameLayout>
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent" android:theme="@style/ThemeOverlay.App.Toolbar"
+        app:title="@string/title_scan" app:titleTextColor="@android:color/white"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal" android:layout_marginBottom="190dp"
+        android:text="@string/scan_hint" android:textColor="@android:color/white" android:textSize="15sp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_torch" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal" android:layout_marginBottom="104dp"
+        android:contentDescription="@string/torch" android:src="@drawable/ic_flash"
+        app:backgroundTint="@color/secondary" app:tint="@android:color/white"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_gravity="bottom" app:menu="@menu/bottom_nav_menu" app:labelVisibilityMode="labeled"/>
+</FrameLayout>

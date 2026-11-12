@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hệ thống điểm danh</string>
+    <string name="splash_tagline">Quét mã vạch · Điểm danh nhanh chóng</string>
+
+    <string name="title_dashboard">Trang chủ</string>
+    <string name="title_list">Danh sách sinh viên</string>
+    <string name="title_scan">Quét mã vạch</string>
+    <string name="title_add">Thêm sinh viên</string>
+    <string name="title_edit">Chỉnh sửa sinh viên</string>
+    <string name="welcome_back">Chào mừng trở lại</string>
+
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_list">Danh sách</string>
+    <string name="nav_scan">Quét mã</string>
+
+    <string name="menu_search">Tìm kiếm</string>
+    <string name="search_hint">Tìm theo tên hoặc MSSV…</string>
+    <string name="filter">Lọc theo</string>
+    <string name="filter_all">Tất cả</string>
+    <string name="filter_present">Có mặt</string>
+    <string name="filter_absent">Vắng mặt</string>
+    <string name="menu_export">Xuất báo cáo</string>
+    <string name="menu_reset">Đặt lại điểm danh</string>
+    <string name="menu_theme">Chế độ tối/sáng</string>
+    <string name="menu_app_info">Thông tin ứng dụng</string>
+
+    <string name="ctx_edit">Chỉnh sửa thông tin</string>
+    <string name="ctx_manual">Điểm danh thủ công</string>
+    <string name="ctx_delete">Xóa sinh viên</string>
+    <string name="ctx_view_code">Xem mã QR/Barcode</string>
+
+    <string name="stats_title">Thống kê</string>
+    <string name="stat_total">Tổng số</string>
+    <string name="stat_present">Có mặt</string>
+    <string name="stat_absent">Vắng</string>
+    <string name="rate_fmt">Tỷ lệ có mặt: %d%%</string>
+    <string name="btn_start_scan">Bắt đầu quét mã vạch</string>
+    <string name="btn_export">Xuất báo cáo</string>
+
+    <string name="status_present">Có mặt</string>
+    <string name="status_absent">Vắng mặt</string>
+    <string name="list_empty">Không có sinh viên nào.\nNhấn dấu + để thêm, hoặc dùng menu ⋮ → Nhập danh sách sinh viên.</string>
+    <string name="list_count">%d sinh viên</string>
+    <string name="add_student">Thêm sinh viên</string>
+    <string name="not_checked_in">Chưa điểm danh</string>
+
+    <string name="scan_hint">Đưa mã vạch vào khung hình để điểm danh</string>
+    <string name="torch">Bật/tắt đèn flash</string>
+    <string name="scan_next">Quét tiếp</string>
+    <string name="scan_success_msg">%1$s · %2$s\nĐã điểm danh lúc %3$s</string>
+    <string name="scan_already_title">Đã điểm danh trước đó</string>
+    <string name="scan_already_msg">%1$s đã có mặt lúc %2$s.</string>
+    <string name="scan_unknown_title">Không tìm thấy sinh viên</string>
+    <string name="scan_unknown_msg">Mã \"%s\" chưa được đăng ký trong hệ thống.</string>
+    <string name="camera_permission_needed">Cần cấp quyền camera để quét mã vạch.</string>
+
+    <string name="hint_code">Mã số sinh viên (MSSV)</string>
+    <string name="hint_name">Họ và tên</string>
+    <string name="hint_class">Lớp học</string>
+    <string name="hint_barcode">Chuỗi mã vạch / QR</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Số điện thoại</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="delete">Xóa</string>
+    <string name="close">Đóng</string>
+    <string name="ok">Đồng ý</string>
+    <string name="err_required">Trường này là bắt buộc</string>
+    <string name="err_code_exists">MSSV hoặc mã vạch đã tồn tại</string>
+    <string name="err_email">Email không hợp lệ</string>
+    <string name="student_saved">Đã lưu thông tin sinh viên</string>
+    <string name="student_deleted">Đã xóa %s</string>
+    <string name="confirm_delete_title">Xóa sinh viên?</string>
+    <string name="confirm_delete_msg">Bạn có chắc muốn xóa %s? Thao tác này không thể hoàn tác.</string>
+    <string name="manual_present">%s đã được đánh dấu: Có mặt</string>
+    <string name="manual_absent">%s đã được đánh dấu: Vắng mặt</string>
+
+    <string name="detail_status">Trạng thái: %s</string>
+    <string name="detail_time">Thời gian điểm danh: %s</string>
+    <string name="btn_qr">QR</string>
+    <string name="btn_barcode">Barcode</string>
+    <string name="btn_call">Gọi điện</string>
+    <string name="btn_email">Gửi email</string>
+    <string name="code_error">Không thể tạo mã cho chuỗi này.</string>
+
+    <string name="no_phone">Sinh viên này chưa có số điện thoại.</string>
+    <string name="no_email">Sinh viên này chưa có địa chỉ email.</string>
+    <string name="no_app">Không có ứng dụng nào để thực hiện thao tác này.</string>
+    <string name="email_subject">Thông báo điểm danh</string>
+
+    <string name="csv_header">MSSV,Họ và tên,Lớp,Mã vạch,Email,Số điện thoại,Trạng thái,Thời gian điểm danh</string>
+    <string name="export_subject">Báo cáo điểm danh - %s</string>
+    <string name="export_summary">BÁO CÁO ĐIỂM DANH\nNgày: %1$s\nTổng số: %2$d\nCó mặt: %3$d\nVắng mặt: %4$d</string>
+    <string name="export_chooser">Chia sẻ báo cáo</string>
+    <string name="export_error">Không thể xuất báo cáo.</string>
+    <string name="export_empty">Chưa có sinh viên để xuất báo cáo.</string>
+
+    <string name="app_info_message">Hệ thống điểm danh sinh viên qua mã vạch\nPhiên bản 1.1\nXây dựng bằng Material Design 3 và ZXing.</string>
+    <string name="reset_title">Đặt lại điểm danh?</string>
+    <string name="reset_msg">Tất cả sinh viên sẽ được chuyển về trạng thái Vắng mặt.</string>
+    <string name="reset_done">Đã đặt lại điểm danh</string>
+    <string name="student_meta">%1$s · %2$s</string>
+
+    <!-- ===== v1.1: import students, sessions/history, class filter ===== -->
+    <string name="title_history">Lịch sử điểm danh</string>
+    <string name="menu_import">Nhập danh sách sinh viên</string>
+    <string name="menu_save_session">Lưu buổi điểm danh</string>
+    <string name="menu_history">Lịch sử điểm danh</string>
+    <string name="menu_class_filter">Lọc theo lớp</string>
+    <string name="btn_import">Nhập danh sách sinh viên</string>
+    <string name="btn_save_session">Lưu buổi điểm danh</string>
+    <string name="btn_history">Lịch sử điểm danh</string>
+
+    <string name="import_title">Nhập danh sách sinh viên</string>
+    <string name="import_help">Chọn tệp CSV (Excel: Lưu thành → CSV UTF-8).\n\nCác cột nhận diện theo tiêu đề: MSSV, Họ và tên, Lớp, Mã vạch, Email, Số điện thoại. Hai cột MSSV và Họ và tên là bắt buộc; Mã vạch để trống sẽ lấy theo MSSV.\n\nTệp không có dòng tiêu đề sẽ đọc theo thứ tự cột ở trên. Có thể nhập lại chính tệp báo cáo đã xuất.</string>
+    <string name="import_choose">Chọn tệp CSV</string>
+    <string name="import_template">Tải tệp mẫu</string>
+    <string name="import_template_header">MSSV,Họ và tên,Lớp,Mã vạch,Email,Số điện thoại</string>
+    <string name="import_template_subject">Tệp mẫu nhập danh sách sinh viên</string>
+    <string name="import_read_error">Không đọc được tệp này. Hãy kiểm tra tệp (tối đa 5 MB) rồi thử lại.</string>
+    <string name="import_err_empty">Tệp không có dòng dữ liệu nào.</string>
+    <string name="import_err_columns">Không tìm thấy cột bắt buộc. Tiêu đề phải có cả MSSV và Họ và tên.</string>
+    <string name="import_err_too_many">Tệp có quá nhiều dòng (tối đa 5000 sinh viên mỗi lần nhập).</string>
+    <string name="import_preview_title">Xác nhận nhập</string>
+    <string name="import_summary">Tệp: %1$s\nHợp lệ: %2$d sinh viên (mới: %3$d · đã có: %4$d)\nDòng lỗi: %5$d</string>
+    <string name="import_errors_header">Các dòng bị bỏ qua:</string>
+    <string name="import_error_line">Dòng %1$d: %2$s</string>
+    <string name="import_errors_more">… và %1$d dòng lỗi khác</string>
+    <string name="import_err_row_code">thiếu MSSV</string>
+    <string name="import_err_row_name">thiếu họ tên</string>
+    <string name="import_err_row_email">email không hợp lệ</string>
+    <string name="import_err_row_dup_code">MSSV bị trùng trong tệp</string>
+    <string name="import_err_row_dup_barcode">mã vạch bị trùng trong tệp</string>
+    <string name="import_update_existing">Cập nhật thông tin sinh viên đã có (theo MSSV)</string>
+    <string name="import_action">Nhập</string>
+    <string name="import_done_title">Nhập hoàn tất</string>
+    <string name="import_result">Đã thêm mới: %1$d\nĐã cập nhật: %2$d\nBỏ qua (đã tồn tại): %3$d\nBỏ qua (trùng mã vạch với sinh viên khác): %4$d</string>
+
+    <string name="session_save_title">Lưu buổi điểm danh</string>
+    <string name="session_name_hint">Tên buổi học</string>
+    <string name="session_default_name">Buổi học %s</string>
+    <string name="session_reset_after">Đặt lại điểm danh sau khi lưu (bắt đầu buổi mới)</string>
+    <string name="session_saved">Đã lưu buổi điểm danh vào lịch sử</string>
+
+    <string name="history_empty">Chưa có buổi điểm danh nào được lưu.\nVào menu ⋮ → Lưu buổi điểm danh để lưu kết quả hiện tại.</string>
+    <string name="rate_pct">%d%%</string>
+    <string name="history_count">%d buổi</string>
+    <string name="history_counts">Có mặt %1$d · Vắng %2$d · Tổng %3$d</string>
+    <string name="history_detail_summary">Thời gian lưu: %1$s\nCó mặt: %2$d/%3$d (%4$d%%)</string>
+    <string name="history_all_present">Tất cả sinh viên đều có mặt.</string>
+    <string name="history_absent_list">Sinh viên vắng mặt (%d):</string>
+    <string name="history_export">Xuất CSV</string>
+    <string name="history_delete_title">Xóa buổi điểm danh?</string>
+    <string name="history_delete_msg">Buổi \"%s\" sẽ bị xóa khỏi lịch sử. Thao tác này không thể hoàn tác.</string>
+    <string name="history_deleted">Đã xóa buổi điểm danh</string>
+    <string name="csv_header_session">MSSV,Họ và tên,Lớp,Trạng thái,Thời gian điểm danh</string>
+    <string name="history_export_subject">Báo cáo buổi điểm danh - %s</string>
+
+    <string name="class_filter_title">Lọc theo lớp</string>
+    <string name="class_filter_all">Tất cả các lớp</string>
+    <string name="class_filter_none">Chưa có lớp nào. Hãy nhập lớp cho sinh viên trước.</string>
+</resources>

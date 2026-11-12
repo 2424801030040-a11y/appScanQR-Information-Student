@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_search" android:icon="@drawable/ic_search" android:title="@string/menu_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" app:showAsAction="ifRoom|collapseActionView"/>
+
+    <!-- SUBMENU: filter by attendance status (single choice) -->
+    <item android:id="@+id/menu_filter" android:icon="@drawable/ic_filter" android:title="@string/filter" app:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/filter_all" android:checked="true" android:title="@string/filter_all"/>
+                <item android:id="@+id/filter_present" android:title="@string/filter_present"/>
+                <item android:id="@+id/filter_absent" android:title="@string/filter_absent"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:id="@+id/menu_class_filter" android:title="@string/menu_class_filter" app:showAsAction="never"/>
+    <item android:id="@+id/menu_import" android:title="@string/menu_import" app:showAsAction="never"/>
+    <item android:id="@+id/menu_export" android:title="@string/menu_export" app:showAsAction="never"/>
+    <item android:id="@+id/menu_save_session" android:title="@string/menu_save_session" app:showAsAction="never"/>
+    <item android:id="@+id/menu_history" android:title="@string/menu_history" app:showAsAction="never"/>
+    <item android:id="@+id/menu_reset" android:title="@string/menu_reset" app:showAsAction="never"/>
+    <item android:id="@+id/menu_theme" android:title="@string/menu_theme" app:showAsAction="never"/>
+    <item android:id="@+id/menu_app_info" android:title="@string/menu_app_info" app:showAsAction="never"/>
+</menu>

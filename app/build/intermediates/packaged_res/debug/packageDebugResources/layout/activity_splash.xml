@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient" android:gravity="center" android:orientation="vertical">
+
+    <FrameLayout android:layout_width="140dp" android:layout_height="140dp" android:background="@drawable/bg_logo_circle">
+        <ImageView android:id="@+id/splash_logo" android:layout_width="72dp" android:layout_height="72dp"
+            android:layout_gravity="center" android:src="@drawable/ic_scan" android:contentDescription="@string/app_name"/>
+    </FrameLayout>
+
+    <TextView android:id="@+id/splash_title" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="28dp" android:text="@string/app_name" android:textColor="@android:color/white"
+        android:textSize="28sp" android:textStyle="bold"/>
+    <TextView android:id="@+id/splash_tagline" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="6dp" android:text="@string/splash_tagline" android:textColor="#CCFFFFFF" android:textSize="15sp"/>
+</LinearLayout>

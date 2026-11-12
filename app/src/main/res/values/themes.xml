@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DayNight parent: the "Chế độ tối/sáng" menu item switches via AppCompatDelegate -->
+    <style name="Theme.StudentAttendance" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/accent_text</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.Medium</item>
+    </style>
+
+    <style name="ShapeAppearance.App.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- White icons/text on the gradient toolbar -->
+    <style name="ThemeOverlay.App.Toolbar" parent="">
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="Theme.StudentAttendance.Splash" parent="Theme.StudentAttendance">
+        <item name="android:windowBackground">@drawable/bg_gradient</item>
+    </style>
+</resources>

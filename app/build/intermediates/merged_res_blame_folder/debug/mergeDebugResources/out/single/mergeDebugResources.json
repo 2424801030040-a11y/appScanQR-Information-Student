@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_bg_dot.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/bg_dot.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_bg_avatar.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/bg_avatar.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/layout_item_session.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/layout/item_session.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_bg_logo_circle.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/bg_logo_circle.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/layout_dialog_student_detail.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/layout/dialog_student_detail.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/anim_slide_out_left.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/anim_logo_pop.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/anim/logo_pop.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/layout_activity_scan.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/layout/activity_scan.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/menu_context_menu.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/menu/context_menu.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/layout_dialog_scan_result.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/layout/dialog_scan_result.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_ic_flash.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/ic_flash.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/anim_slide_in_left.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_bg_gradient_header.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/bg_gradient_header.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/layout_activity_student_edit.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/layout/activity_student_edit.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/anim_fade_in.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/layout_activity_history.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_ic_launcher.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_ic_home.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/layout_item_student.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/layout/item_student.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_ic_filter.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/ic_filter.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/anim_bounce.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/anim/bounce.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/anim_item_enter.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/anim/item_enter.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/anim_fab_enter.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/anim/fab_enter.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_bg_laser.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/bg_laser.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/layout_activity_splash.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/xml_file_paths.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_ic_scan.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/ic_scan.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_bg_gradient.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/bg_gradient.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/anim_slide_out_right.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/menu_options_menu.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/menu/options_menu.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/anim_fade_out.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/anim/fade_out.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/layout_dialog_save_session.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/layout/dialog_save_session.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/layout_dialog_import_preview.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/layout/dialog_import_preview.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_ic_search.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/layout_view_stat_card.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/layout/view_stat_card.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_ic_check_circle.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/ic_check_circle.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/anim_laser_scan.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/anim/laser_scan.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/anim_slide_in_right.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_bg_badge.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/bg_badge.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_ic_people.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/ic_people.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/layout_activity_student_list.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/layout/activity_student_list.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_ic_add.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/layout_activity_main.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.studentattendance.app-debug-33:/drawable_ic_cancel.xml.flat",
+        "source": "com.example.studentattendance.app-main-35:/drawable/ic_cancel.xml"
+    }
+]

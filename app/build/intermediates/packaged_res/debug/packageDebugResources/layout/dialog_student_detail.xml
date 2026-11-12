@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center_horizontal" android:orientation="vertical" android:padding="24dp">
+
+        <!-- Generated QR / Barcode (white card so it scans in dark mode too) -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            app:cardBackgroundColor="@android:color/white" app:cardCornerRadius="16dp" app:cardElevation="2dp">
+            <ImageView android:id="@+id/img_code" android:layout_width="230dp" android:layout_height="230dp"
+                android:padding="12dp" android:contentDescription="@null" android:scaleType="fitCenter"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/toggle_format" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="14dp" app:selectionRequired="true" app:singleSelection="true">
+            <com.google.android.material.button.MaterialButton android:id="@+id/btn_qr"
+                style="@style/Widget.Material3.Button.OutlinedButton" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/btn_qr"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/btn_barcode"
+                style="@style/Widget.Material3.Button.OutlinedButton" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/btn_barcode"/>
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+        <TextView android:id="@+id/tv_detail_name" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:textColor="@color/text_primary" android:textSize="20sp" android:textStyle="bold"/>
+        <TextView android:id="@+id/tv_detail_meta" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textColor="@color/text_secondary" android:textSize="14sp"/>
+        <TextView android:id="@+id/tv_detail_contact" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="6dp" android:gravity="center" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+        <TextView android:id="@+id/tv_detail_status" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" android:textSize="14sp" android:textStyle="bold"/>
+        <TextView android:id="@+id/tv_detail_time" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textColor="@color/text_secondary" android:textSize="13sp"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton android:id="@+id/btn_call"
+                style="@style/Widget.Material3.Button.TonalButton" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_marginEnd="6dp" android:layout_weight="1" android:text="@string/btn_call"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/btn_email"
+                style="@style/Widget.Material3.Button.TonalButton" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_marginStart="6dp" android:layout_weight="1" android:text="@string/btn_email"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
